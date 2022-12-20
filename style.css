@@ -1,0 +1,600 @@
+@font-face {
+    font-family: PTSansRegular;
+    src: url("fonts/PTSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: PTSansBold;
+    src: url("fonts/PTSans-Bold.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: PTSansRegular;
+}
+
+.container {
+    width: 1520px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    background: #ffffff;
+}
+
+/*-------------- Header --------------*/
+header .navigate {
+    border: 1px solid #E0E0E0;
+    margin-left: 18px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+header .navigate .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 0;
+    align-items: center;
+}
+
+header .navigate ul {
+    display: flex;
+    gap: 38px;
+    align-items: center;
+}
+
+.li-1 {
+    font-family: PTSansBold;
+    align-items: center;
+    display: flex;
+}
+
+.li-1 p {
+    padding: 4px 2px 0 6px;
+}
+
+.contacts .container {
+    display: flex;
+    gap: 99px;
+    margin-top: 12px;
+}
+
+.logo {
+    padding-top: 5px;
+}
+
+.info {
+    display: flex;
+    gap: 85px;
+    align-items: center;
+}
+
+.red {
+    font-family: PTSansRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #E13B3F;
+}
+
+.poisk {
+    gap: 193px;
+    align-items: center;
+    display: flex;
+    width: 296px;
+    height: 45px;
+    border: 1px solid #A8D1E7;
+    border-radius: 25px;
+}
+
+.poisk p {
+    margin-left: 25px;
+    color: #626262;
+}
+
+.nomer {
+    width: 204px;
+    float: right;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nomer img {
+    width: 19px;
+    height: 19px;
+}
+
+.nomer .number p {
+
+    font-size: 22px;
+    font-family: PTSansBold;
+}
+
+.zvonok {
+    font-size: 18px;
+    float: right;
+    color: #E13B3F;
+    border: 1px solid #E13B3F;
+    border-radius: 5px;
+    width: 177px;
+    height: 35px;
+    background: white;
+}
+
+.zvonok:hover {
+    background: rgb(226, 226, 226)
+}
+
+.zvonok p {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    gap: 41px;
+}
+
+.vhod {
+    text-align: center;
+}
+
+.icons div img {
+    margin-bottom: 10px;
+}
+
+.izbranoe {
+    width: 90px;
+
+}
+
+.iconizbr {
+    padding: 3px 0px 0px 11px;
+    align-items: center;
+    display: flex;
+    gap: 14px;
+}
+
+.izbr {
+    width: 21px;
+}
+
+.redicon {
+    background: #E13B3F;
+    border-radius: 7px;
+    width: 36px;
+    height: 19px;
+    text-align: center;
+    color: white;
+}
+
+.imgkor {
+    margin: -7px;
+}
+
+.korzina {
+    text-align: center;
+}
+
+
+.category {
+    margin-top: 14px;
+    background: #A8D1E7;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.category .container ul {
+    display: flex;
+    gap: 98px;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    /* Цвет обычной ссылки */
+    padding: 2px;
+    /* Поля вокруг текста */
+}
+
+a:visited {
+    color: #000000;
+    /* Цвет посещенной ссылки */
+}
+
+a:hover {
+    text-decoration: none;
+    /* Убираем подчеркивание */
+    color: #999999;
+    /* Цвет ссылки при наведении на нее курсора мыши */
+}
+
+.category .container {
+    display: flex;
+    gap: 98px;
+}
+
+.category .container button {
+    width: 191px;
+    height: 60px;
+    background: #384685;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*----------- Header end ------------*/
+
+
+
+/*-------------- Main --------------*/
+.grayimg {
+    width: 1520px;
+    height: 387px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    margin: 45px 0 54px 6px;
+}
+
+.main h2 {
+    font-family: PTSansBold;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.priemuh {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 62px;
+}
+
+.priemuh>div {
+    align-items: center;
+    gap: 25px;
+    background: #F4F4F4;
+    border-radius: 5px;
+    display: flex;
+    width: 357px;
+    height: 94px;
+}
+
+.priemuh img {
+    margin-left: 30px;
+    width: 44px;
+    height: 44px;
+}
+
+.bd {
+    font-weight: bold;
+}
+
+.priem {
+
+    margin-left: 6px;
+    margin-bottom: 22px;
+}
+
+.katal {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 27px;
+}
+
+.catalog {
+    font-weight: 400;
+    font-size: 22px;
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    margin-bottom: 73px;
+}
+
+.catalog article {
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    width: 357px;
+    height: 238px;
+}
+
+.kuhnya {
+    margin-left: 6px;
+    background: url("img/interior-of-turquoise-and-white-elegant-kitchen-wi-2021-08-31-14-33-10-utc\ 1.png");
+}
+
+.catalog span {
+    font-weight: 400;
+    color: white;
+    background: #384685;
+    border-radius: 0px 0px 0px 10px;
+    display: flex;
+    padding-left: 18px;
+    align-items: center;
+    font-size: 22px;
+}
+
+.kuhnya span {
+    letter-spacing: 0.065em;
+    width: 92px;
+    height: 43px;
+}
+
+.gostin {
+    background: url("img/living-room-with-fireplace-2021-08-26-15-32-55-utc\ 1.png");
+}
+
+.gostin span {
+    letter-spacing: 0.065em;
+    width: 151px;
+    height: 43px;
+}
+
+.spalni {
+    background: url("img/classic-master-bedroom-2021-08-26-15-32-52-utc\ 1.png");
+}
+
+.spalni span{
+    letter-spacing: 0.065em;
+    width: 123px;
+    height: 43px;
+}
+
+.prihojie {
+    background: url("img/house-hallway-interior-with-clothes-and-furniture-2021-09-01-05-31-46-utc\ 1.png");
+}
+
+.prihojie span{
+    letter-spacing: 0.065em;
+    width: 140px;
+    height: 43px;
+}
+
+.shkaf {
+    margin-top: 10px;
+    margin-left: 6px;
+    background: url("img/image\ 4.png");
+}
+
+.shkaf span {
+    letter-spacing: 0.065em;
+    width: 170px;
+    height: 43px;
+}
+
+.detskie {
+    margin-top: 10px;
+    background: url("img/children-s-room-interior-2022-01-04-06-08-41-utc\ 1.png");
+}
+
+.detskie span {
+    letter-spacing: 0.065em;
+    width: 119px;
+    height: 43px;
+}
+
+.divani {
+    margin-top: 10px;
+    background: url("img/minimalist-lounge-with-modern-sofa-2021-08-26-15-32-51-utc\ 1.png");
+}
+
+.divani span {
+    letter-spacing: 0.065em;
+    width: 115px;
+    height: 43px;
+}
+
+.stoli {
+    margin-top: 10px;
+    background: url("img/3d-rendering-business-meeting-room-on-high-rise-of-2021-08-27-23-20-54-utc\ 1.png");
+}
+
+.stoli span {
+    letter-spacing: 0.065em;
+    width: 210px;
+    height: 43px;
+}
+
+/*------ popular start ----- */
+.popular {
+    position: relative;
+    margin-top: 29px;
+    font-size: 18px;
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+.bd-2 {
+    margin-left: 12px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.popular article {
+    align-items: center;
+    width: 284px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    padding: 37px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.popular article > img {
+    display: block;
+    margin-bottom: 34px;
+}
+.popular .border {
+    display: flex;
+    align-items: center;
+    padding: 12px 0 22px 0;
+    margin-top: 28px;
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.graycen {
+    color: #BDBDBD;
+    text-decoration-line: line-through;
+}
+
+.popular button {
+    font-family: PTSansRegular;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1D1818;
+    border: 1px solid #384685;
+    border-radius: 5px;
+    width: 220px;
+    height: 53px;
+    background: white;
+}
+
+.popular button:hover{
+    background: #E13B3F;
+    color: white;
+}
+
+.buttonlike{
+    display: flex;
+    margin-top: 17px;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttonlike img:hover{
+    background: url("img/icons8-лайк-с-заливкой-48\ \(1\).png") no-repeat;
+    background-size:cover;
+    padding-bottom: 2.5px;
+    padding-top:2.5px;
+    width: 34px;
+    height: 29px;
+}
+.label {   
+    Height: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 22px;
+    left: 22px
+}
+.sale {
+    width: 56px;
+    background: url("img/sale.png");
+    padding-right: 7px;
+    font-size: 16px;
+    line-height: 21px;
+    justify-content: flex-end;  
+}
+.hit {
+    width: 63px;
+    background: #0E9F2E;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 21px;
+    justify-content: center;
+}
+
+.hit2 {
+    width: 63px;
+    background: #0E9F2E;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 21px;
+    justify-content: center;
+    top: 22px;
+    left: 103px;
+}
+
+.grand .grandimg{
+    line-height: 102.4%;
+    margin-bottom: 12px;
+}
+.grand .border{
+    margin-top: 4px;
+}
+/*------ popular start ----- */
+
+.pokazatEshe{
+    margin-bottom: 79px;
+    margin-top: 37px;
+    width: 1520px;
+    height: 75px;
+    background: #F2F2F2;
+    border-radius: 5px;
+    font-family: PTSansRegular;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1D1818;
+}
+.pokazatEshe:hover{
+    background: #e7e7e7;
+}
+
+/*-------------- Popular Category start --------------*/
+
+.popkategory {
+    margin-top: 32px;
+    display: flex;
+    gap: 35px;
+    row-gap: 11px;
+    flex-wrap: wrap;
+}
+.popkategory button{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid #384685;
+    border-radius: 5px;
+    padding: 11px 30px 15px 30px;
+}
+.popkategory button:hover{
+    background: #384685;
+    color: #FFFFFF;
+}
+.popular .arrow{
+    position: absolute;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.1);
+}
+.popular .left {
+    z-index: 1;
+    top: 215px;
+    left: -34px;
+}
+.popular .right{
+    top: 215px;
+    left: 1490px;
+}
+/*-------------- Popular Category end --------------*/
+
+
+
+/*-------------- Main end --------------*/
+
+
+
+/*-------------- Fotter --------------*/
+
+/*------------ Fotter end ------------*/
